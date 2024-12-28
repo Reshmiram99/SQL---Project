@@ -231,13 +231,25 @@ Objective
 
 This assignment emphasizes SQL operations involving data integration through joins and unions to extract meaningful insights from relational tables.
 
-Joins
+SQL Joins: 
 
-Joins are used to retrieve data from two or more related tables based on a common field. This project explores various types of joins such as Inner Join, Left Join, and Right Join, showcasing their practical usage in real-world scenarios.
+Definition
 
-Union
+SQL joins are used to retrieve data from two or more related tables based on a common field. This project explores various types of joins such as Inner Join, Left Join, and Right Join, showcasing their practical usage in real-world scenarios.
 
-The Union operation is applied to combine the results of two SELECT statements, either removing duplicates (with UNION) or preserving duplicates (with UNION ALL).
+Types of Joins:
+
+- INNER JOIN: Returns rows with matching values in both tables.
+
+- LEFT JOIN: Returns all rows from the left table and matching rows from the right table. If there is no match, NULL values are returned for the columns from the right table.
+
+- RIGHT JOIN: Returns all rows from the right table and matching rows from the left table. If there is no match, NULL values are returned for the columns from the left table.
+
+SQL Union: 
+
+Definition
+
+The SQL UNION operator combines the results of two SELECT statements, either removing duplicates (with UNION) or preserving duplicates (with UNION ALL).
 
 
 Task Instructions:
@@ -267,6 +279,8 @@ Expected Output
 - Union Outputs: A combined list of country names with and without duplicates.
 
 - Rounded Ratings: A list of all persons with their ratings rounded to the nearest integer.
+
+
 
 
   
