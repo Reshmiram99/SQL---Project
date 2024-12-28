@@ -23,9 +23,8 @@ Consider the Country table and Persons table that you created earlier. Perform t
   3. Write a SELECT query to fetch the age of all persons using the function you created.
   4.  For the Country table:
 
-    - Find the length of each country's name.
-    - Extract the first three characters of each country's name.
-    - Convert all country names to uppercase and lowercase.
-
+  - Find the length of each country's name.
+  - Extract the first three characters of each country's name.
+  - Convert all country names to uppercase and lowercase.
 
     
